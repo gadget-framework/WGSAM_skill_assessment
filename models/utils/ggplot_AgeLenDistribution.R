@@ -19,7 +19,7 @@ ggLenDist <- function(Gfit, compName, yrs=NULL, q=NULL, ...){
     # plot
     ggplot(tmp, aes(avg.length,obs)) +
         geom_bar(stat="identity") +
-        geom_line(data=tmp, aes(avg.length,pre), colour=2) +
+        geom_line(data=tmp, aes(avg.length,pre), colour=2, ...) +
         facet_wrap(~year+step) +
         NULL
     } else {
@@ -42,7 +42,7 @@ ggLenDist <- function(Gfit, compName, yrs=NULL, q=NULL, ...){
     # plot
     ggplot(filter(tmp,model==modNames[1]), aes(avg.length,obs)) +
         geom_bar(stat="identity") +
-        geom_line(data=tmp, aes(avg.length,pre,col=model)) +
+        geom_line(data=tmp, aes(avg.length,pre,col=model), ...) +
         facet_wrap(~year+step) +
         NULL
     }
@@ -68,7 +68,7 @@ ggAgeDist <- function(Gfit, compName, yrs=NULL, q=NULL, ...){
     # plot
     ggplot(tmp, aes(age2,obs)) +
         geom_bar(stat="identity") +
-        geom_line(data=tmp, aes(age2,pre), colour=2) +
+        geom_line(data=tmp, aes(age2,pre), colour=2, ...) +
         facet_wrap(~year+step) +
         NULL
     } else {
@@ -91,7 +91,7 @@ ggAgeDist <- function(Gfit, compName, yrs=NULL, q=NULL, ...){
     # plot
     ggplot(filter(tmp,model==modNames[1]), aes(age2,obs)) +
         geom_bar(stat="identity") +
-        geom_line(data=tmp, aes(age2,pre,col=model)) +
+        geom_line(data=tmp, aes(age2,pre,col=model), ...) +
         facet_wrap(~year+step) +
         NULL
     }
