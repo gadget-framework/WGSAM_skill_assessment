@@ -51,7 +51,7 @@ defaults <- list(
     timestep = mfdb_group('1'=1:3, '2'=4:5, '3'=6:8, '4'=9:10, '5'=11:12),
     ## timestep = mfdb_timestep_quarterly,
     species = spp,
-    length=mfdb_interval("len", seq(sppListi %>% .$minLen, sppListi %>% .$maxLen, by = 1)),
+    length=mfdb_interval("len", seq(sppListi %>% .$minLen, sppListi %>% .$maxLen, by = 3)),
     age = ageList[[spp]]
 )
 
