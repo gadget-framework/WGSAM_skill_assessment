@@ -2,7 +2,7 @@ minage <- stk[[1]]$minage
 maxage <- stk[[1]]$maxage
 maxlength <- stk[[1]]$maxlength 
 minlength <- stk[[1]]$minlength
-dl <- 1
+dl <- stk[[1]]$dl
 
 ll <- mfdb_interval("all",c(minlength,maxlength),
                     open_ended = c("upper","lower"))
