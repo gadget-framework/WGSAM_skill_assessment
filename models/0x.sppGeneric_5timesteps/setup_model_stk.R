@@ -53,7 +53,7 @@ names(grw.constants) <- c("Linf","k","t0","recl")
 
 ## maxlengthgroupgrowth as x3 the mean length growth from recl
 ## dL = (Linf-Li)*(1-exp(-Kdt))
-nL.max <- ceiling(1.5*floor((grw.constants["Linf"]-grw.constants["recl"]) * (1-exp(-grw.constants["k"]*0.25))))
+nL.max <- ceiling(1.5*(grw.constants["Linf"]-grw.constants["recl"]) * (1-exp(-grw.constants["k"]*0.25)))
 
 ## initial num@age
 init.num <- mfdb_sample_count(mdb, c('age'), list(
@@ -128,7 +128,7 @@ stk <-
                 maxage = defaults$age[[length(defaults$age)]],
                 minlength = round(sppListi %>% .$minLen * 0.5),
                 maxlength = round(sppListi %>% .$maxLen * 1.1),
-                dl = 1,
+                dl = defaults$length[2] - defaults$length[1],
                 livesonareas = 1) %>%
   gadget_update('refweight',
                 data=data_frame(length=seq(.[[1]]$minlength,.[[1]]$maxlength,.[[1]]$dl),
