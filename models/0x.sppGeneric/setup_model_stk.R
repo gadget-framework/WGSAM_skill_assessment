@@ -91,7 +91,7 @@ init.sigma <- mfdb_sample_meanlength_stddev(mdb, c('age','species'), list(
 init.rec <- mfdb_sample_count(mdb, c('age'), list(
       area            = defaults$area,
       timestep        = defaults$timestep,
-      year            = year_range[1]-1,
+      year            = 1, # avgRec stored in year1
       species         = defaults$species, 
       age             = defaults$age,
       sampling_type   = 'RES',
