@@ -1,8 +1,13 @@
-minage <- stk[[1]]$minage
-maxage <- stk[[1]]$maxage
-maxlength <- stk[[1]]$maxlength 
-minlength <- stk[[1]]$minlength
-dl <- 1
+## minage <- stk[[1]]$minage
+## maxage <- stk[[1]]$maxage
+## maxlength <- stk[[1]]$maxlength 
+## minlength <- stk[[1]]$minlength
+## dl <- stk[[1]]$dl
+minage <- defaults$age[[1]]
+maxage <- defaults$age[[length(defaults$age)]]
+maxlength <- round(sppListi %>% .$maxLen * 1.1) 
+minlength <- round(sppListi %>% .$minLen * 0.5)
+dl <- defaults$length[2] - defaults$length[1]
 
 ll <- mfdb_interval("all",c(minlength,maxlength),
                     open_ended = c("upper","lower"))
