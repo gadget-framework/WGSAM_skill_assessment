@@ -1,0 +1,114 @@
+; Gadget version 2.3.11 running on pop-os Sun Sep 17 22:03:29 2023
+; Listing of the switches used in the current Gadget run
+cap.Linf	capgrowergrowthcalcHmodelvariable	capinitialcondmeandata	capinitialcondmeandata	capinitialcondmeandata	capinitialcondmeandata	capinitialcondmeandata	capinitialcondmeandata	capinitialcondmeandata	capinitialcondmeandata	capinitialcondmeandata	capinitialcondmeandata	capinitialcondmeandata	capinitialcondmeandata	
+cap.k	capgrowergrowthcalcHmodelvariable	capinitialcondmeandata	capinitialcondmeandata	capinitialcondmeandata	capinitialcondmeandata	capinitialcondmeandata	capinitialcondmeandata	capinitialcondmeandata	capinitialcondmeandata	capinitialcondmeandata	capinitialcondmeandata	capinitialcondmeandata	capinitialcondmeandata	
+cap.walpha	capgrowergrowthcalcHmodelvariable	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	
+cap.wbeta	capgrowergrowthcalcHmodelvariable	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	
+cap.bbin	capgrower	
+cap.init.scalar	capinitialcondmeandata	capinitialcondmeandata	capinitialcondmeandata	capinitialcondmeandata	capinitialcondmeandata	capinitialcondmeandata	
+cap.recl	capinitialcondmeandata	capinitialcondmeandata	capinitialcondmeandata	capinitialcondmeandata	capinitialcondmeandata	capinitialcondmeandata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	
+cap.rec.scalar	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	
+cap.rec.40	caprenewaldata	
+cap.rec.sd	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	caprenewaldata	
+cap.rec.41	caprenewaldata	
+cap.rec.42	caprenewaldata	
+cap.rec.43	caprenewaldata	
+cap.rec.44	caprenewaldata	
+cap.rec.45	caprenewaldata	
+cap.rec.46	caprenewaldata	
+cap.rec.47	caprenewaldata	
+cap.rec.48	caprenewaldata	
+cap.rec.49	caprenewaldata	
+cap.rec.50	caprenewaldata	
+cap.rec.51	caprenewaldata	
+cap.rec.52	caprenewaldata	
+cap.rec.53	caprenewaldata	
+cap.rec.54	caprenewaldata	
+cap.rec.55	caprenewaldata	
+cap.rec.56	caprenewaldata	
+cap.rec.57	caprenewaldata	
+cap.rec.58	caprenewaldata	
+cap.rec.59	caprenewaldata	
+cap.rec.60	caprenewaldata	
+cap.rec.61	caprenewaldata	
+cap.rec.62	caprenewaldata	
+cap.rec.63	caprenewaldata	
+cap.rec.64	caprenewaldata	
+cap.rec.65	caprenewaldata	
+cap.rec.66	caprenewaldata	
+cap.rec.67	caprenewaldata	
+cap.rec.68	caprenewaldata	
+cap.rec.69	caprenewaldata	
+cap.rec.70	caprenewaldata	
+cap.rec.71	caprenewaldata	
+cap.rec.72	caprenewaldata	
+cap.rec.73	caprenewaldata	
+cap.rec.74	caprenewaldata	
+cap.rec.75	caprenewaldata	
+cap.rec.76	caprenewaldata	
+cap.rec.77	caprenewaldata	
+cap.rec.78	caprenewaldata	
+cap.rec.79	caprenewaldata	
+cap.rec.80	caprenewaldata	
+cap.rec.81	caprenewaldata	
+cap.rec.82	caprenewaldata	
+cap.rec.83	caprenewaldata	
+cap.rec.84	caprenewaldata	
+cap.rec.85	caprenewaldata	
+cap.rec.86	caprenewaldata	
+cap.rec.87	caprenewaldata	
+cap.rec.88	caprenewaldata	
+cap.rec.89	caprenewaldata	
+cap.rec.90	caprenewaldata	
+cap.rec.91	caprenewaldata	
+cap.rec.92	caprenewaldata	
+cap.rec.93	caprenewaldata	
+cap.rec.94	caprenewaldata	
+cap.rec.95	caprenewaldata	
+cap.rec.96	caprenewaldata	
+cap.rec.97	caprenewaldata	
+cap.rec.98	caprenewaldata	
+cap.rec.99	caprenewaldata	
+cap.rec.100	caprenewaldata	
+cap.rec.101	caprenewaldata	
+cap.rec.102	caprenewaldata	
+cap.rec.103	caprenewaldata	
+cap.rec.104	caprenewaldata	
+cap.rec.105	caprenewaldata	
+cap.rec.106	caprenewaldata	
+cap.rec.107	caprenewaldata	
+cap.rec.108	caprenewaldata	
+cap.rec.109	caprenewaldata	
+cap.rec.110	caprenewaldata	
+cap.rec.111	caprenewaldata	
+cap.rec.112	caprenewaldata	
+cap.rec.113	caprenewaldata	
+cap.rec.114	caprenewaldata	
+cap.rec.115	caprenewaldata	
+cap.rec.116	caprenewaldata	
+cap.rec.117	caprenewaldata	
+cap.rec.118	caprenewaldata	
+cap.rec.119	caprenewaldata	
+cap.rec.120	caprenewaldata	
+cap.surQ1.alpha	fleetsurvQ1cappredatorsurvQ1capsuitabilityforcapmodelvariable	
+cap.surQ1.l50	fleetsurvQ1cappredatorsurvQ1capsuitabilityforcapmodelvariable	
+cap.surQ3.alpha	fleetsurvQ3cappredatorsurvQ3capsuitabilityforcapmodelvariable	
+cap.surQ3.l50	fleetsurvQ3cappredatorsurvQ3capsuitabilityforcapmodelvariable	
+cap.com.alpha	fleetcomcappredatorcomcapsuitabilityforcapmodelvariable	
+cap.com.l50	fleetcomcappredatorcomcapsuitabilityforcapmodelvariable	
+;
+; Listing of the likelihood components used in the current Gadget run
+;
+; Component	Type	Weight
+alk.cap.surQ1	3	0.024777
+ldist.cap.com	3	0.0239693
+ldist.cap.surQ1	3	0.0244141
+ldist.cap.surQ3	3	791.766
+siQ1.cap	1	0.192419
+siQ3.cap	1	0.227998
+understocking	2	10
+bounds	8	10
+;
+; Listing of the output from the likelihood components for the current Gadget run
+;
+0	   18.7949    192.254    0.00033       3.98    35.6722     0.0001    1.78008     100000     99.998    1.25492    99.9966    99.9989    90.7635    86.8209     85.527    99.9964    21.4616    56.5625    52.2268    56.9004    50.0844    53.3554    62.0323    55.2617    36.9554    48.4564    45.6074    42.6711    49.7747    77.6725    62.2654    92.0417    53.0867    61.4207    86.1698     63.751    42.1263    88.5898    87.8708    73.5669    86.0322    53.2112    59.6492    63.4076    73.2929    74.9129     54.455    63.2607    24.8642     33.703    28.6499    16.4639    29.0981    24.8769    13.5404    18.1068    24.8277    32.9297    25.8436    17.0318     19.942    27.9633    20.3664    30.8455    26.1087    44.0843    17.5463    26.2837    39.2234     25.752    33.7597     32.878    16.1437    45.4818    57.8519    31.3141     19.878    60.3785    33.4518    24.2475    54.6995    56.7833    30.5917    43.9138    45.5945    27.6208    37.4653     42.346    65.0278     83.308   0.947624    6.18708    2.76371    9.42266    0.40199    11.6794 		   34.42    52.31    35.38   0.9884    5.351    4.508  0.01881        0 		   787.822300886465

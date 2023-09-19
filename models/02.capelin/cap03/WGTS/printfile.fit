@@ -1,0 +1,103 @@
+; gadget printfile, created in 2023-09-17
+[component]
+type	likelihoodsummaryprinter
+printfile	WGTS/out.fit/likelihoodsummary
+;
+[component]
+type	likelihoodprinter
+likelihood	alk.cap.surQ1
+printfile	WGTS/out.fit/alk.cap.surQ1
+;
+[component]
+type	likelihoodprinter
+likelihood	ldist.cap.com
+printfile	WGTS/out.fit/ldist.cap.com
+;
+[component]
+type	likelihoodprinter
+likelihood	ldist.cap.surQ1
+printfile	WGTS/out.fit/ldist.cap.surQ1
+;
+[component]
+type	likelihoodprinter
+likelihood	ldist.cap.surQ3
+printfile	WGTS/out.fit/ldist.cap.surQ3
+;
+[component]
+type	likelihoodprinter
+likelihood	siQ1.cap
+printfile	WGTS/out.fit/siQ1.cap
+;
+[component]
+type	likelihoodprinter
+likelihood	siQ3.cap
+printfile	WGTS/out.fit/siQ3.cap
+;
+[component]
+type	stockstdprinter
+stockname	cap
+printfile	WGTS/out.fit/cap.std
+printatstart 1
+yearsandsteps	all	1
+;
+[component]
+type	stockprinter
+stocknames	cap
+areaaggfile	WGTS/print.aggfiles/cap.area.agg
+ageaggfile	WGTS/print.aggfiles/cap.allages.agg
+lenaggfile	WGTS/print.aggfiles/cap.len.agg
+printfile	WGTS/out.fit/cap.full
+printatstart	1
+yearsandsteps	all	1
+;
+[component]
+type	predatorpreyprinter
+predatornames	survQ1cap survQ3cap comcap
+preynames	cap
+areaaggfile	WGTS/print.aggfiles/cap.area.agg
+ageaggfile	WGTS/print.aggfiles/cap.age.agg
+lenaggfile	WGTS/print.aggfiles/cap.alllen.agg
+printfile	WGTS/out.fit/cap.prey
+yearsandsteps	all all
+;
+[component]
+type	predatorpreyprinter
+predatornames	survQ1cap
+preynames	cap
+areaaggfile	WGTS/print.aggfiles/cap.area.agg
+ageaggfile	WGTS/print.aggfiles/cap.allages.agg
+lenaggfile	WGTS/print.aggfiles/cap.len.agg
+printfile	WGTS/out.fit/cap.prey.survQ1cap
+yearsandsteps	all all
+;
+[component]
+type	predatorpreyprinter
+predatornames	survQ3cap
+preynames	cap
+areaaggfile	WGTS/print.aggfiles/cap.area.agg
+ageaggfile	WGTS/print.aggfiles/cap.allages.agg
+lenaggfile	WGTS/print.aggfiles/cap.len.agg
+printfile	WGTS/out.fit/cap.prey.survQ3cap
+yearsandsteps	all all
+;
+[component]
+type	predatorpreyprinter
+predatornames	comcap
+preynames	cap
+areaaggfile	WGTS/print.aggfiles/cap.area.agg
+ageaggfile	WGTS/print.aggfiles/cap.allages.agg
+lenaggfile	WGTS/print.aggfiles/cap.len.agg
+printfile	WGTS/out.fit/cap.prey.comcap
+yearsandsteps	all all
+;
+[component]
+type	stockprinter
+stocknames	cap
+areaaggfile	WGTS/print.aggfiles/cap.area.agg
+ageaggfile	WGTS/print.aggfiles/cap.rec.age.agg
+lenaggfile	WGTS/print.aggfiles/cap.alllen.agg
+printfile	WGTS/out.fit/cap.recruitment
+printatstart	0
+yearsandsteps	all 5
+;
+;

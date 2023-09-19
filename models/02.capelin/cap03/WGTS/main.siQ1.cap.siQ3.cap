@@ -1,0 +1,13 @@
+; main file for gadget - created in Rgadget
+; WGTS/main.siQ1.cap.siQ3.cap - Sun Sep 17 22:03:40 2023
+timefile Modelfiles/time
+areafile Modelfiles/area
+printfiles ; no printfile supplied
+[stock]
+stockfiles cap
+[tagging]
+[otherfood]
+[fleet]
+fleetfiles Modelfiles/fleet_cap
+[likelihood]
+likelihoodfiles WGTS/likelihood.siQ1.cap.siQ3.cap
