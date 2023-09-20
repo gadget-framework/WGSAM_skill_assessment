@@ -3,7 +3,7 @@ library(tidyverse)
 library(grid)
 library(gridExtra)
 
-## rm(list=ls())
+rm(list=ls())
 
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 getwd()
@@ -18,7 +18,7 @@ fit <- gadget.fit(main="WGTS/main.final", wgts="WGTS",
                                          age.min=c(1),
                                          age.max=c(5)),
                   recruitment_step_age=data.frame(stock=c("cap"),
-                                                  age=c(1),
+                                                  age=c(0),
                                                   step=c(5)))
 
 # -------------
