@@ -29,12 +29,12 @@ fit <- gadget.fit(main="WGTS/main.final", wgts="WGTS",
                                                   step=c(5)))
 
 # -------------
-## ## Eventually change the likelihood weight for the survey indicex x100 and refit the model
+## ## Eventually change the likelihood weight for the survey indicex x10 and refit the model
  lkh <- read.gadget.file("./", file_name="WGTS/likelihood.final", file_type="likelihood")
  i <- which(sapply(lkh,function(x){x$name}) == "siQ1.cod")
- lkh[[i]]$weight <- lkh[[i]]$weight * 100
+ lkh[[i]]$weight <- lkh[[i]]$weight * 10
  i <- which(sapply(lkh,function(x){x$name}) == "siQ3.cod")
- lkh[[i]]$weight <- lkh[[i]]$weight * 100
+ lkh[[i]]$weight <- lkh[[i]]$weight * 10
  attributes(lkh)$file_name <- "likelihood.final1"
  lkh %>%
      write.gadget.file(".")
