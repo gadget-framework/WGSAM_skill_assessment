@@ -211,7 +211,7 @@ if (gadget_version == 2){
     ## mutate(value = ifelse(switch == paste0(stock_names,'.rec.1'), 1e-4 * exp(init.rec$number), value),
     ##        optimise = ifelse(switch == paste0(stock_names,'.rec.1'), 0, optimise)) %>%
     ## gadgetutils::g3_init_guess(paste0(stock_names,'.init.[0-9]'),1,0.001,1000,1) %>%
-    gadgetutils::g3_init_guess(paste0(stock_names,'.rec.scalar'), sppListi$recScale, 1e3, 1e9, 0) %>% 
+    gadgetutils::g3_init_guess(paste0(stock_names,'.rec.scalar'), sppListi$recScale, 1e3, 1e9, 1) %>% 
     ## gadgetutils::g3_init_guess(paste0(stock_names,'.rec.scalar'), sppListi %>% .$recScale, 1, 1e7, 0) %>% 
     gadgetutils::g3_init_guess(paste0(stock_names,'.init.scalar'), 1e-4, 1e-5, 1e6, 0) %>%
     gadgetutils::g3_init_guess(paste0(stock_names,'.recl'), grw.constants["recl"], grw.constants["recl"]*0.2, grw.constants["recl"]*2, 0) %>%
